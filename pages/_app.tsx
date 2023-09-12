@@ -52,6 +52,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         `}
       </Script>
       <Nav />
+      <p className="left-0 bottom-0 text-left fixed z-20 text-sm">
+        website is under maintainence...
+        <br />
+        if you&apos;ve any suggestions about website,
+        <br />
+        feel free to discuss in any pvx group.
+      </p>
       {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <Component {...pageProps} />
       <Footer />

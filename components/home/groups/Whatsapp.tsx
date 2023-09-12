@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { GroupsProps } from "../../../pages";
 import GroupCard from "./GroupCard";
 import { whatsappGroupsState } from "./GroupsState";
+import useGroup from "./hook/useGroup";
 
 export default function WhatsappGroups(props: GroupsProps) {
   const { groupsDB, isEnabled } = props;
 
   const whatsappGroups = whatsappGroupsState();
-  const [groups, setGroups] = useState(whatsappGroups);
+  const { groups, checkCopied } = useGroup(whatsappGroups);
 
-  // TODO: RUNS EVERYTIME, USE USEEFFECT
   // check if group links are enabled
   if (isEnabled) {
     // groupFromDB = data coming from outside - api
@@ -23,31 +23,17 @@ export default function WhatsappGroups(props: GroupsProps) {
     });
   }
 
-  const checkCopied = (text: string, result: boolean, id: string) => {
-    if (result) {
-      const groupsNew = groups.map((group) => {
-        if (group.id === id) {
-          group.isCopied = true;
-        } else {
-          group.isCopied = false;
-        }
-
-        return group;
-      });
-
-      setGroups(groupsNew);
-    }
-  };
-
   return (
-    <div className="wa groups">
+    <div className="inline-block">
       {!isEnabled && (
-        <div id="err" className="err">
+        <div className="border mb-4 px-2 py-1 text-sm w-full">
           NOTE: Whatsapp Group Links are currently blocked ! Contact PVX admins.
         </div>
       )}
-      <h3 className="app-heading">WHATSAPP</h3>
-      <div className="group-container">
+      <h3 className="text-black bg-white rounded text-lg mx-3 py-1 mt-4  font-Inter font-medium">
+        WHATSAPP
+      </h3>
+      <div className="flex justify-center items-center flex-wrap">
         {groups.map((group) => (
           <GroupCard key={group.id} group={group} checkCopied={checkCopied} />
         ))}

@@ -26,44 +26,41 @@ export default function Birthdays(props: BirthdaysProps) {
   });
 
   return (
-    <section id="birthday_b">
-      <h2 className="bday-header_b">
+    <section className="pt-20 bg-gradient-to-r from-gray-950 to-gray-900">
+      <h2 className="section-heading">
         &lt;&#123;PVX&#125;&gt; COMMUNITY
         <br />
-        <u> Birthday List</u>
+        BIRTHDAY LIST
       </h2>
       {todayBday !== "" ? (
-        <div className="wish_b">
-          <div className="gif_b" />
-          <div className="today-bday-text_b">
-            <h6 className="happy-birthday_b">Happy Birthday</h6>
-            <h6 className="bdy-boy_b">{todayBday}</h6>
-          </div>
+        <div className="flex justify-center items-center gap-4">
           <Image
-            src="/static/balloon.png"
-            className="balloon_b"
+            src="/static/birthday/balloon.png"
+            className="animate-bounc"
             alt="balloon"
             height={120}
             width={50}
           />
+          <div>
+            <h3 className="text-2xl">Happy Birthday !!</h3>
+            <h3 className="text-2xl">{todayBday}</h3>
+          </div>
           <Image
-            src="/static/balloon.png"
-            className="balloon_b balloon2_b"
+            src="/static/birthday/balloon.png"
+            className="animate-bounc"
             alt="balloon"
             height={120}
             width={50}
           />
         </div>
       ) : null}
-      <div className="months-container_b">
+      <div className="flex flex-wrap justify-center items-center gap-8">
         {months ? (
-          months.map((month) => (
-            <MonthCard month={month} id={month.id} key={month.id} />
-          ))
+          months.map((month) => <MonthCard month={month} key={month.id} />)
         ) : (
-          <div id="err" className="err" style={{ border: "1px solid black" }}>
-            NOTE: There is a problem with attaching the birthday data ! Contact
-            PVX admins.
+          <div className="border mb-4 px-2 py-1 text-sm w-full">
+            NOTE: There is a problem with attaching the group stats data !
+            Contact PVX admins.
           </div>
         )}
       </div>

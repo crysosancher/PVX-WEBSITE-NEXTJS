@@ -8,10 +8,8 @@ import { GroupsProps } from "../../../pages";
 export default function Groups(props: GroupsProps) {
   const { groupsDB, isEnabled } = props;
 
-  // TODO: MAKE A GLOBAL STATE FOR ALL GROUPS
-
   return (
-    <section id="group-section" className="section">
+    <section className=" bg-gradient-to-r from-neutral-950 to-neutral-900">
       <h2 className="section-heading">PVX FAMILY GROUPS</h2>
       <Whatsapp groupsDB={groupsDB} isEnabled={isEnabled} />
       <Telegram />

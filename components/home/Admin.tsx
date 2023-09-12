@@ -90,16 +90,25 @@ export default function Admin() {
     },
   ];
   return (
-    <section id="admin-section" className="section">
+    <section className="bg-gradient-to-r from-gray-950 to-gray-900">
       <h2 className="section-heading">PVX MAIN ADMINS</h2>
 
-      <div className="group-container">
+      <div className="flex justify-center items-center flex-wrap font-Inter gap-4 ">
         {admins.map((admin) => (
-          <div className="admin-box" key={admin.id}>
-            <div className="admin-dp">
-              <Image src={admin.img} alt="admin" fill />
+          <div
+            className="bg-gray-800 px-4 py-3 rounded-lg flex justify-center items-center flex-col gap-3 basis-28"
+            key={admin.id}
+          >
+            <div className="overflow-hidden rounded-full">
+              <Image
+                className="w-16 h-16 sm:w-20 sm:h-20"
+                src={admin.img}
+                alt="admin"
+                height="80"
+                width="80"
+              />
             </div>
-            <h4 className="admin-name">{admin.name}</h4>
+            <h3 className="text-sm sm:text-base">{admin.name}</h3>
           </div>
         ))}
       </div>
