@@ -12,7 +12,14 @@ module.exports = {
       },
       screens: {
         'sm': '640px',
-        'v1':'144%'
+        backgroundSize:{
+          'v1':'144%'
+        },
+        'desktop': '1024px',
+        backgroundSize:{
+          'v1':'37%'
+        }
+
 
       },
       backgroundImage: {
