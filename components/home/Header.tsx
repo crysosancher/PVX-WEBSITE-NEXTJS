@@ -8,7 +8,7 @@ export default function Header(props: {
   const { showGameHandler } = props;
 
   return (
-    <section className="min-h-screen flex items-center justify-center flex-col bg-space bg-center bg-cover gap-2">
+    <section className="min-h-screen flex items-center justify-center flex-col bg-space bg-center bg-v1 gap-2">
       <div className="rounded-full overflow-hidden">
         <Image
           className="border-4 rounded-full w-52 h-52 sm:w-64 sm:h-64"
@@ -21,7 +21,7 @@ export default function Header(props: {
         />
       </div>
       <h1 className="text-2xl sm:text-4xl mt-2">
-        &lt;&#123;PVX&#125;&gt; COMMUNITY ❤️
+        &lt;&#123;Shiva&#125;&gt; COMMUNITY ❤️
       </h1>
       <p className="text-base sm:text-lg text-gray-400">
         Created by You, 03/07/16
