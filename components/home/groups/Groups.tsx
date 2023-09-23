@@ -9,7 +9,7 @@ export default function Groups(props: GroupsProps) {
   const { groupsDB, isEnabled } = props;
 
   return (
-    <section className=" bg-gradient-to-r from-neutral-950 to-neutral-900">
+    <section className=" bg-gradient-to-r from-sky-50 to-sky-100">
       <h2 className="section-heading">PVX FAMILY GROUPS</h2>
       <Whatsapp groupsDB={groupsDB} isEnabled={isEnabled} />
       <Telegram />

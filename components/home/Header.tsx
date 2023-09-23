@@ -11,13 +11,13 @@ export default function Header(props: {
     <section className="min-h-screen flex items-center justify-center flex-col bg-space bg-center sm:bg-v1 gap-2">
       <div className="rounded-full overflow-hidden">
         <Image
-          className="border-4 rounded-full w-52 h-52 sm:w-64 sm:h-64"
-          src="/static/group/main.jpg"
+          className="border-3 rounded-full w-52 h-52 sm:w-64 sm:h-64"
+          src="/static/group/shiva.png"
           alt="logo"
           height="256"
           width="256"
           priority
-          onClick={() => showGameHandler(true)}
+          // onClick={() => showGameHandler(true)}
         />
       </div>
       <h1 className="text-2xl sm:text-4xl mt-2">

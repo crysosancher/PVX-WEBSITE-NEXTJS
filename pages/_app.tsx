@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="PVX is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
+          content="Shiva is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
         />
         <meta
           name="keywords"
@@ -21,14 +21,14 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="https://github.com/Shubhamrawat5/PVX_webpage/blob/main/src/asserts/images/main.jpg?raw=true"
+          content="Shiva"
         />
-        <meta property="og:title" content="PVX" />
+        <meta property="og:title" content="Shiva" />
         <meta
           property="og:description"
           content="PVX is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
         />
-        <meta property="og:URL" content="https://pvxcommunity.com/" />
+        <meta property="og:URL" content="Shiva" />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="google-site-verification"
           content="sJN2MPzgDpzPOlooLsyGEpQUDoaPdXM9OYMBoCGuzHU"
         />
-        <title>PVX</title>
+        <title>Shiva</title>
       </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-VN9V7K8V4P"

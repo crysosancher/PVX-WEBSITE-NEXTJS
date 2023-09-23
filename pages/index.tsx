@@ -75,7 +75,7 @@ export default function HomePage(props: GroupsProps) {
   return (
     <>
       <Head>
-        <title>PVX | HOME</title>
+        <title>Shiva | HOME</title>
       </Head>
       {showGame ? (
         <Game showGameHandler={showGameHandler} />

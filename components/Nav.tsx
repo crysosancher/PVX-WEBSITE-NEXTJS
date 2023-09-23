@@ -33,10 +33,10 @@ export default function Nav() {
   return (
     <header>
       <nav className="flex align items-center justify-between px-3 sm:px-5 py-2 fixed top-0 w-full z-10">
-        <div className="invert">
+        <div>
           <Link href="/" passHref>
             <Image
-              src="/static/pvx/pvx-dark.png"
+              src="/static/pvx/shiva.png"
               alt="Shiva Communtiy"
               priority
               width="80"
@@ -45,7 +45,7 @@ export default function Nav() {
           </Link>
         </div>
 
-        <div className="hidden sm:block">
+        {/* <div className="hidden sm:block">
           {navItems.map((item) => (
             <Link href={item.href} passHref key={item.name}>
               <button
@@ -106,7 +106,7 @@ export default function Nav() {
               </Link>
             ))}
           </div>
-        </div>
+        </div> */}
       </nav>
       {loading && (
         <div className="z-50 flex justify-center items-center fixed top-0 left-0 w-full h-screen bg-gradient-to-r from-gray-950 to-gray-900 opacity-75">

@@ -23,7 +23,7 @@ module.exports = {
 
       },
       backgroundImage: {
-        space: "url('/static/background/black-white2.gif')",
+        // space: "url('/static/background/black-white2.gif')",
       },
       backgroundSize:{
         'v1':'37%'
