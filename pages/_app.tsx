@@ -5,10 +5,13 @@ import "../styles/globals.css";
 import { AppProps } from "next/app";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+console.log("%c \uD83E\uDD19 Developed by crysosancher- https://www.linkedin.com/in/crysosancher/", "font-size: 12px;font-family: monospace;background: black;display: inline-block;color: white;padding: 15px;border: 2px solid white;")
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+    
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
@@ -39,6 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Shiva</title>
       </Head>
       <Script
+      
         src="https://www.googletagmanager.com/gtag/js?id=G-VN9V7K8V4P"
         strategy="afterInteractive"
       />
