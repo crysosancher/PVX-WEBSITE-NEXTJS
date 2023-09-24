@@ -9,7 +9,7 @@ export default function Telegram() {
 
   return (
     <div className="inline-block">
-      <h3 className="text-black bg-white rounded text-lg mx-3 py-1 mt-4  font-Inter font-medium">
+      <h3 className="text-white bg-stone-800 rounded text-lg mx-3 py-1 mt-4  font-Inter font-medium">
         TELEGRAM
       </h3>
       <div className="flex justify-center items-center flex-wrap">

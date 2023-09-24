@@ -25,12 +25,12 @@ export default function WhatsappGroups(props: GroupsProps) {
 
   return (
     <div className="inline-block">
-      {!isEnabled && (
+      {/* {!isEnabled && (
         <div className="border mb-4 px-2 py-1 text-sm w-full">
           NOTE: Whatsapp Group Links are currently blocked ! Contact PVX admins.
         </div>
-      )}
-      <h3 className="text-black bg-white rounded text-lg mx-3 py-1 mt-4  font-Inter font-medium">
+      )} */}
+      <h3 className="text-white bg-stone-800 rounded text-lg mx-3 py-1 mt-4  font-Inter font-medium">
         WHATSAPP
       </h3>
       <div className="flex justify-center items-center flex-wrap">

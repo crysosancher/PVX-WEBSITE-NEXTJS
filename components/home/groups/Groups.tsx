@@ -9,12 +9,12 @@ export default function Groups(props: GroupsProps) {
   const { groupsDB, isEnabled } = props;
 
   return (
-    <section className=" bg-gradient-to-r from-sky-50 to-sky-100">
-      <h2 className="section-heading">PVX FAMILY GROUPS</h2>
+    <section className=" bg-gradient-to-r from-sky-50 to-neutral-300">
+      <h2 className="section-heading">COMMUNITY ❤️</h2>
       <Whatsapp groupsDB={groupsDB} isEnabled={isEnabled} />
       <Telegram />
-      <Discord />
-      <Facebook />
+      {/* <Discord /> */}
+      {/* <Facebook /> */}
     </section>
   );
 }

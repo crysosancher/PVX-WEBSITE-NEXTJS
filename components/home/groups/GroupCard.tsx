@@ -13,7 +13,7 @@ export default function GroupCard(props: GroupCardProps) {
   const { group, checkCopied } = props;
   return (
     <div
-      className="bg-gray-800 border-gray-700 flex flex-col sm:flex-row items-center mx-2 mt-4 md:m-4 p-2 md:h-36 rounded-lg overflow-hidden"
+      className="bg-zinc-900 flex flex-col sm:flex-row items-center mx-2 mt-4 md:m-4 p-2 md:h-36 rounded-lg overflow-hidden"
       key={group.id}
     >
       <div className="overflow-hidden rounded-full">
@@ -29,7 +29,7 @@ export default function GroupCard(props: GroupCardProps) {
         <h3 className="border-b pb-1 text-white my-1 text-sm md:text-base">
           {group.name}
         </h3>
-        <p className="text-xs md:text-sm text-gray-400 mb-2 sm:mb-9 font-Inter">
+        <p className="text-xs md:text-sm text-slate-100 mb-2 sm:mb-9 font-Inter">
           &#40;{group.desc}&#41;
         </p>
         {group.link ? (
@@ -72,7 +72,7 @@ export default function GroupCard(props: GroupCardProps) {
           </div>
         ) : (
           <div className="flex items-center justify-between">
-            <p className="px-3 py-1 text-xs border-gray-600 border-2 rounded-lg opacity-70 font-Inter">
+            <p className="px-3 py-1 text-xs text-slate-100 border-gray-600 border-2 rounded-lg opacity-70 font-Inter">
               Link Blocked
             </p>
             <div className="invert mx-2">

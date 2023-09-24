@@ -4,7 +4,7 @@ import { Client } from "pg";
 
 import Game from "../components/home/Game";
 import Header from "../components/home/Header";
-import Admin from "../components/home/Admin";
+// import Admin from "../components/home/Admin";
 import Groups from "../components/home/groups/Groups";
 
 export interface GroupDB {
@@ -83,7 +83,7 @@ export default function HomePage(props: GroupsProps) {
         <>
           <Header showGameHandler={showGameHandler} />
           <Groups groupsDB={groupsDB} isEnabled={isEnabled} />
-          <Admin />
+          {/* <Admin /> */}
         </>
       )}
     </>
