@@ -15,11 +15,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Shiva is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
+          content="Shiva Community is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
         />
         <meta
           name="keywords"
-          content="PVX,pvx family,pvx birthday,stats,donate,gdrive,pvx website,pvx webpage,pvx community,pvx bot,whatsapp group,whatsapp bot,insta downloader,youtube downloader,movies,series,technology,news,programming,crypto,stocks,anime,sports,sticker,bot,study,meme,gaming,automobile,astronomy,space,bgmi,coc,status,pvx whatsapp group,pvx telegram group,pvx telegram channel,pvx facebook group,pvx discord channel"
+          content="Shiva,Shiva family,Shiva birthday,stats,donate,gdrive,Shiva website,Shiva webpage,Shiva community,Shiva bot,whatsapp group,whatsapp bot,insta downloader,youtube downloader,movies,series,technology,news,programming,crypto,stocks,anime,sports,sticker,bot,study,meme,gaming,automobile,astronomy,space,bgmi,coc,status,Shiva whatsapp group,Shiva telegram group,Shiva telegram channel,Shiva facebook group,Shiva discord channel"
         />
         <meta
           property="og:image"
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Shiva" />
         <meta
           property="og:description"
-          content="PVX is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
+          content="Shiva is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
         />
         <meta property="og:URL" content="Shiva" />
         <meta property="og:type" content="website" />
@@ -59,7 +59,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <br />
         if you&apos;ve any suggestions about website,
         <br />
-        feel free to discuss in any pvx group.
+        feel free to discuss in any Shiva group.
       </p> */}
       {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <Component {...pageProps} />
