@@ -39,7 +39,7 @@ export function telegramGroupsState() {
     {
       name: "Food & Tricks Mania",
       id: "1",
-      desc: "Provide Daily Food Offers",
+      desc: "Daily Food Offers",
       alt: "Shiv-community-telegram",
       img: "/static/group/foodTele.jpg",
       link: "https://t.me/foodmaniaa",
@@ -48,7 +48,7 @@ export function telegramGroupsState() {
     {
       name: "Amazing Deals & Offers",
       id: "2",
-      desc: "Provide Daily Shopping offers",
+      desc: "Daily Shopping offers",
       alt: "Shiva-tech-news-telegram",
       img: "/static/group/dealsTele.jpg",
       link: "https://t.me/amdeals",
@@ -57,7 +57,7 @@ export function telegramGroupsState() {
     {
       name: "Skill Unlock",
       id: "3",
-      desc: "Provide Daily Courses Links",
+      desc: "Daily Courses Links",
       alt: "shiva-movies-series-telegram",
       img: "/static/group/skills.jpg",
       link: "https://t.me/SkillsUnlock",
@@ -65,7 +65,7 @@ export function telegramGroupsState() {
     },{
       name: "Jobs Genie",
       id: "4",
-      desc: "Provide Daily Jobs openings",
+      desc: "Daily Jobs openings",
       alt: "shiva-movies-series-telegram",
       img: "/static/group/jobsTele.jpg",
       link: "https://t.me/Jobsgenie",
@@ -112,7 +112,7 @@ export function whatsappGroupsState() {
       desc: "News Group",
       alt: "Shiva-community",
       img: communityImg,
-      link: "https://chat.whatsapp.com/2PLlRJpnB3OB1D0jI3xLLQ",
+      link: "https://chat.whatsapp.com/HyrKG3HkEYt9kS1IQKytu7",
       id: "919557666582-1467533860@g.us",
       isCopied: false,
     },
@@ -157,7 +157,7 @@ export function whatsappGroupsState() {
       desc: "IT/Pharma discussion",
       alt: "Shiva-community",
       img: "/static/group/pharma.jpg",
-      link: "https://chat.whatsapp.com/Jn3oUEejmVtKX51Y1fFAQK",
+      link: "https://chat.whatsapp.com/JrgwMYsw1pi4aW3E5LJOg1",
       id: "919557666582-1559476348@g.us",
       isCopied: false,
     },
