@@ -32,7 +32,7 @@ export default function Nav() {
   // TODO: CHECK priority in IMAGE
   return (
     <header>
-      <nav className="flex align items-center justify-between px-3 sm:px-5 py-2 fixed top-0 w-full z-10">
+      <nav className="flex align items-center justify-between px-3 sm:px-5 py-2 absolute top-0 w-full -z-10">
         <div>
           <Link href="/" passHref>
             <Image
