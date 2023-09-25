@@ -133,6 +133,14 @@ export function whatsappGroupsState() {
       link: "https://chat.whatsapp.com/KV5iV0ENhkd4GDM6MjygFJ",
       id: "919557666582-1548337792@g.us",
       isCopied: false,
+    },{
+      name: "Tech News-Discussion",
+      desc: "News Discussion Group",
+      alt: "Shiva-community",
+      img: "/static/group/tD.jpg",
+      link: "https://chat.whatsapp.com/KV5iV0ENhkd4GDM6MjygFJ",
+      id: "9195576as82-1548337792@g.us",
+      isCopied: false,
     },
     {
       name: "Carrer Guidance",

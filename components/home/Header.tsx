@@ -12,7 +12,7 @@ export default function Header(props: {
       <div className="rounded-full overflow-hidden">
         <Image
           className="border-3 rounded-full w-52 h-52 sm:w-64 sm:h-64"
-          src="/static/group/shiva.png"
+          src="/static/group/siva2.png"
           alt="logo"
           height="256"
           width="256"
