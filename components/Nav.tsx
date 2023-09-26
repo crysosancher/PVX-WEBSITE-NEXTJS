@@ -36,11 +36,11 @@ export default function Nav() {
         <div>
           <Link href="/" passHref>
             <Image
-              src="/static/pvx/shiva.png"
+              src="/static/pvx/upIcon.jpg"
               alt="Shiva Communtiy"
               priority
-              width="80"
-              height="28"
+              width="100"
+              height="35"
             />
           </Link>
         </div>

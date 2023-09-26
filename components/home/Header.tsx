@@ -21,10 +21,10 @@ export default function Header(props: {
         />
       </div>
       <h1 className="text-2xl sm:text-4xl mt-2">
-        &lt;&#123;Shiva&#125;&gt; COMMUNITY ❤️
+        Join &lt;&#123;My COMMUNITY&#125;&gt; Groups ❤️
       </h1>
       <p className="text-base sm:text-lg text-gray-400">
-        Created by You, 03/07/16
+        {/* Created by You, 03/07/16 */}
       </p>
     </section>
   );
