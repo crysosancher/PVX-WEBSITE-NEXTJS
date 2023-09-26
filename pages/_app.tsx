@@ -12,10 +12,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Shiva Community is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
+          content="Are you looking for a one-stop destination to access the latest and greatest content, for FREE? You've come to the right place! Join handpicked WhatsApp groups and Telegram channels where you can network, share insights, and stay updated on industry trends."
         />
         <meta
           name="keywords"
@@ -28,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Shiva" />
         <meta
           property="og:description"
-          content="Shiva is an active community of friends and easy going people enthusiastically engaged in mutual transaction of ideas spanning over a spectrum of headers ranging from your typical Bakchodi to some serious Crypto and Technology..."
+          content="Are you looking for a one-stop destination to access the latest and greatest content, for FREE? You've come to the right place! Join handpicked WhatsApp groups and Telegram channels where you can network, share insights, and stay updated on industry trends."
         />
         <meta property="og:URL" content="Shiva" />
         <meta property="og:type" content="website" />
