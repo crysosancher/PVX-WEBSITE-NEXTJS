@@ -138,7 +138,7 @@ export function whatsappGroupsState() {
       desc: "News Discussion Group",
       alt: "Shiva-community",
       img: "/static/group/tD.jpg",
-      link: "https://chat.whatsapp.com/KV5iV0ENhkd4GDM6MjygFJ",
+      link: "https://chat.whatsapp.com/CkNRIm00zobBwP253nugMQ",
       id: "9195576as82-1548337792@g.us",
       isCopied: false,
     },
